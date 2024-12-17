@@ -8,8 +8,10 @@ const ToDo = () => {
     setNewTask(event.target.value);
   }
   function addTask() {
-    setTasks([...tasks, newTask]);
-    setNewTask("");
+    if (newTask.trim() !== "") {
+      setTasks([...tasks, newTask]);
+      setNewTask("");
+    }
   }
   function deleteTask(index) {
     const updatedTasks = tasks.filter((_, i) => i !== index);
