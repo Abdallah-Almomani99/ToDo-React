@@ -1,0 +1,55 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-button {
+  background-color: green;
+}
+.delete-button {
+  background-color: red;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+ol {
+  padding: 0px;
+}
+li {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button,
+.move-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
